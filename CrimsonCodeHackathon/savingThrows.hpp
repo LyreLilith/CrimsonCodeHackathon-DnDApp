@@ -1,10 +1,10 @@
 #pragma once
-class AbilityScores {
+class SavingThrows {
 
 public:
-	AbilityScores();
+	SavingThrows();
 
-	AbilityScores(int str, int dex, int con, int intel, int wis, int cha);
+	SavingThrows(int str, int dex, int con, int intel, int wis, int cha);
 
 	int getStr(void);
 	int getDex(void);

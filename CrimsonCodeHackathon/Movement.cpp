@@ -27,7 +27,7 @@ int Movement::getFly(void)
 }
 int Movement::getClimb(void)
 {
-	return  climb;
+	return climb;
 }
 
 int Movement::getSwim(void)

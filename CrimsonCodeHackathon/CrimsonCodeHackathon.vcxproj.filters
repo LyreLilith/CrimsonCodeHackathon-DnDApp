@@ -21,7 +21,7 @@
     <ClInclude Include="header.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="savingThows.hpp">
+    <ClInclude Include="savingThrows.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="abilityScores.hpp">
@@ -39,9 +39,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="abilityScores.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="speed.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Movement.cpp">
