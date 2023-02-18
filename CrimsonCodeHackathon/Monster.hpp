@@ -1,5 +1,6 @@
 #include <string>
 #include "Movement.hpp"
+#include "abilityScores.hpp"
 using namespace std;
 
 class Monster{
@@ -25,7 +26,7 @@ private:
 SavingThrows monsterSave;
 AbilityScores monsterAblities;
 Senses monsterSenses;
-Damage monsterDamage;
+bool damageArr[14] = { 0 };
 Stats monsterStats;
 Actions monsterActions;
 string name;
