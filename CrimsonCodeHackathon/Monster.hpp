@@ -8,7 +8,7 @@ class Monster{
 public:
 	Monster(void);
 
-	Monster(string name, struct AbilityScores &scores, struct actions &actions, struct Stats &stats);
+	Monster(string name, struct AbilityScores &scores, struct Actions &actions, struct Stats &stats);
 
 
 	typedef struct actions // feels like it may be a good idea to just use strings to write them out rather than use variables
@@ -23,7 +23,7 @@ public:
 
 private:
 SavingThrows monsterSave;
-AbilityScores monsterAblitys;
+AbilityScores monsterAblities;
 Senses monsterSenses;
 Damage monsterDamage;
 Stats monsterStats;
