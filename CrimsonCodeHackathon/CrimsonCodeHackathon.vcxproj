@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="abilitysScores.hpp" />
+    <ClInclude Include="abilityScores.hpp" />
     <ClInclude Include="header.hpp" />
     <ClInclude Include="Monster.hpp" />
     <ClInclude Include="Movement.hpp" />

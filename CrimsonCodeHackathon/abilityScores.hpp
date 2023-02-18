@@ -1,8 +1,8 @@
 #pragma once
-class SavingThrows {
+class AbilityScores {
 
 public:
-	SavingThrows::SavingThrows();
+	AbilityScores::AbilityScores();
 
 private:
 	int str;

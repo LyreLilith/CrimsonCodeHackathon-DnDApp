@@ -10,7 +10,7 @@ public:
 	int getFly(void);
 	int getSwim(void);
 	int getClimb(void);
-	int getBurrow(void);
+	int getBurrow(void)
 
 private:
 	int walk;
