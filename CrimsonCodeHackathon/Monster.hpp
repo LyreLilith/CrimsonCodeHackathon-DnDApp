@@ -33,16 +33,10 @@ public:
 	}AbilityScores;
 
 
-	typedef struct movement
-	{
-		int walk;
-		int fly;
-		int swim;
-		int climb;
-		int passive;
-		int burrow;
-	}Movement;
+<<<<<<< makeMovement
+=======
 
+>>>>>>> master
 	typedef struct sense
 	{
 		int dark;

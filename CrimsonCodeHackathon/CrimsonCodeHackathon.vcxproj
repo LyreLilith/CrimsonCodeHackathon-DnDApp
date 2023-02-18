@@ -137,6 +137,7 @@
     <ClCompile Include="abilityScores.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="monster.cpp" />
+    <ClCompile Include="Movement.cpp" />
     <ClCompile Include="speed.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
