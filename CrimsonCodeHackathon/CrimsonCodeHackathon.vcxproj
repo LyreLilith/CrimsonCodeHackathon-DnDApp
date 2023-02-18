@@ -127,18 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="abilitysScores.hpp" />
+    <ClInclude Include="abilityScores.hpp" />
     <ClInclude Include="header.hpp" />
     <ClInclude Include="Monster.hpp" />
     <ClInclude Include="Movement.hpp" />
-    <ClInclude Include="savingThows.hpp" />
+    <ClInclude Include="savingThrows.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="abilityScores.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="monster.cpp" />
     <ClCompile Include="Movement.cpp" />
-    <ClCompile Include="speed.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
