@@ -8,7 +8,7 @@ class Monster{
 public:
 	Monster();
 
-	Monster(string name, struct AbilityScores &scores, struct actions &actions  );
+	Monster(string name, struct AbilityScores &scores, struct actions &actions, struct Stats &stats);
 
 
 	typedef struct savingThrow
@@ -21,7 +21,7 @@ public:
 		int cha;
 	}SavingThrows;
 
-	typedef struct abilityScore
+	typedef struct scores
 	{
 		int str;
 		int dex;
@@ -33,18 +33,18 @@ public:
 	}AbilityScores;
 
 
-	typedef struct speed
+	typedef struct movement
 	{
 		int walk;
 		int fly;
 		int swim;
 		int climb;
+		int passive;
 		int burrow;
-	}Speeds;
+	}Movement;
 
 	typedef struct sense
 	{
-		int passive;
 		int dark;
 		int blind;
 		int truesight;
@@ -81,7 +81,9 @@ public:
 	typedef struct actions // feels like it may be a good idea to just use strings to write them out rather than use variables
 	{
 		string name;
-		string 
+		int hitMod;
+		string damageDie; // refers to how many and what type of die are rolles for damage
+		string description; // probably too long to paste for every action. will likely shorten or remove
 	}Actions;
 
 	

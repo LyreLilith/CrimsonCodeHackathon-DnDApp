@@ -24,7 +24,7 @@
     <ClInclude Include="savingThows.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="abilitysScores.hpp">
+    <ClInclude Include="abilityScores.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
