@@ -12,11 +12,12 @@ public:
 
 
 private:
-	Movement monsterMove;
-	AbilityScores monsterScores;
-	SavingThrows monsterSavingThrows;
-	Actions monsterActions;
-	string name;
-	string descripton
-	
+SavingThrows monsterSave;
+AbilityScores monsterAblitys;
+Senses monsterSenses;
+Damage monsterDamage;
+Stats monsterStats;
+Actions monsterActions;
+string name;
+string description;	
 };
