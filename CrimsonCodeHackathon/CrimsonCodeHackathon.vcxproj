@@ -130,11 +130,14 @@
     <ClInclude Include="abilitysScores.hpp" />
     <ClInclude Include="header.hpp" />
     <ClInclude Include="Monster.hpp" />
+    <ClInclude Include="Movment.hpp" />
     <ClInclude Include="savingThows.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="abilityScores.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="monster.cpp" />
+    <ClCompile Include="speed.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

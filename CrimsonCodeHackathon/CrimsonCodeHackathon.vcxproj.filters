@@ -27,12 +27,21 @@
     <ClInclude Include="abilitysScores.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Movment.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="monster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="abilityScores.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="speed.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
