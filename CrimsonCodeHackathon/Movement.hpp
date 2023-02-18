@@ -1,8 +1,8 @@
 #pragma once
-class Movment{
+class Movement{
 	
 public:
-	Movment::Movment()
+	Movement::Movement();
 
 private:
 	int walk;

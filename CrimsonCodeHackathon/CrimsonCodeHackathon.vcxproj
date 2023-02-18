@@ -130,7 +130,7 @@
     <ClInclude Include="abilityScores.hpp" />
     <ClInclude Include="header.hpp" />
     <ClInclude Include="Monster.hpp" />
-    <ClInclude Include="Movment.hpp" />
+    <ClInclude Include="Movement.hpp" />
     <ClInclude Include="savingThows.hpp" />
   </ItemGroup>
   <ItemGroup>

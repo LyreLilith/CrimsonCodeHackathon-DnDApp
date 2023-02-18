@@ -27,7 +27,7 @@
     <ClInclude Include="abilityScores.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Movment.hpp">
+    <ClInclude Include="Movement.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
