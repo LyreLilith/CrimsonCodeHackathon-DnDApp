@@ -22,3 +22,4 @@ private:
 	int cha;
 };
 
+// We need a way to mark advantage and disadvantage for these!

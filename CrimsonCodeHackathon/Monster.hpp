@@ -80,7 +80,7 @@ public:
 		string description; // probably too long to paste for every action. will likely shorten or remove
 	}Actions;
 
-	
+	typedef struct general
 
 private:
 	Stats monsterStats;
