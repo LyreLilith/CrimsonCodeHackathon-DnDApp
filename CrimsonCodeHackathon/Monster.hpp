@@ -8,7 +8,7 @@ class Monster{
 public:
 	Monster();
 
-	Monster(string name, struct AbilityScores &scores, struct actions &actions  );
+	Monster(string name, struct AbilityScores &scores, struct actions &actions, struct Stats &stats);
 
 
 	typedef struct savingThrow
@@ -21,7 +21,7 @@ public:
 		int cha;
 	}SavingThrows;
 
-	typedef struct abilityScore
+	typedef struct scores
 	{
 		int str;
 		int dex;
@@ -33,9 +33,12 @@ public:
 	}AbilityScores;
 
 
+<<<<<<< makeMovement
+=======
+
+>>>>>>> master
 	typedef struct sense
 	{
-		int passive;
 		int dark;
 		int blind;
 		int truesight;
@@ -73,11 +76,11 @@ public:
 	{
 		string name;
 		int hitMod;
-		string damageDie; // referring to amount and type of dice to roll for damage
-		string description; // ability description. may or may not remove since tends to be long. might shorten instead?
+		string damageDie; // refers to how many and what type of die are rolles for damage
+		string description; // probably too long to paste for every action. will likely shorten or remove
 	}Actions;
 
-	
+	typedef struct general
 
 private:
 	Stats monsterStats;
