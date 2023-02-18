@@ -24,7 +24,7 @@
     <ClInclude Include="savingThrows.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="abilityScores.hpp">
+    <ClInclude Include="AbilityScores.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Movement.hpp">
@@ -44,7 +44,7 @@
     <ClCompile Include="monster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="abilityScores.cpp">
+    <ClCompile Include="AbilityScores.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Movement.cpp">

@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="abilityScores.hpp" />
+    <ClInclude Include="AbilityScores.hpp" />
     <ClInclude Include="actions.hpp" />
     <ClInclude Include="header.hpp" />
     <ClInclude Include="Monster.hpp" />
@@ -136,7 +136,7 @@
     <ClInclude Include="senses.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="abilityScores.cpp" />
+    <ClCompile Include="AbilityScores.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="monster.cpp" />
     <ClCompile Include="Movement.cpp" />
