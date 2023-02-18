@@ -36,6 +36,9 @@
     <ClInclude Include="actions.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="VurablityAndResitance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
