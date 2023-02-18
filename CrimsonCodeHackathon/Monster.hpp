@@ -33,15 +33,6 @@ public:
 	}AbilityScores;
 
 
-	typedef struct speed
-	{
-		int walk;
-		int fly;
-		int swim;
-		int climb;
-		int burrow;
-	}Speeds;
-
 	typedef struct sense
 	{
 		int passive;

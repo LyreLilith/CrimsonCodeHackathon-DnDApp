@@ -1,8 +1,13 @@
 #pragma once
-class Movment{
+class Movement{
 	
 public:
-	Movment::Movment()
+	Movement();
+
+	Movement(int walk, int fly, int swim, int climb, int burrow);
+
+	int getWalk(void);
+	int getFly();
 
 private:
 	int walk;

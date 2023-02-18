@@ -27,7 +27,7 @@
     <ClInclude Include="abilitysScores.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Movment.hpp">
+    <ClInclude Include="Movement.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -42,6 +42,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="speed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Movement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
