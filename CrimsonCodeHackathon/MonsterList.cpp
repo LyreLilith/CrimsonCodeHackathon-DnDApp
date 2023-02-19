@@ -15,6 +15,11 @@ void MonsterList::insertAtFront(Monster mData)
 	}
 	else
 	{
+		pHead->setPrevNode(pMem);
 
 	}
+}
+
+
+	
 }

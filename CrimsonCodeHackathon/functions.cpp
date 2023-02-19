@@ -6,4 +6,14 @@ using namespace std;
 
 
 
-// make into function
+void readCSV(FILE* infile)
+{
+    string line;
+    ifstream monsters;
+    monsters.open("monsters.csv");
+
+    while (getline(monsters, line)) {
+             
+
+    }
+}
