@@ -25,24 +25,22 @@ public:
 
 	Monster(string name, struct AbilityScores scores, struct Stats stats, struct Actions actions, Senses senses, string description);
 
-	void 
 
 	string getName(void);
 	SavingThrows getSavingThrows(void);
 	AbilityScores getAbilityScores(void);
-	Senses getSense(void);
+	Senses getSenses(void);
 	Stats getStats(void);
 	Actions getActions(void);
 	string getDescription(void);
-	void setString(string name);
-	void setAbilitys()
 
-		Monster Monster::load(FILE* infile);
+	void setAbilitys();
+
+		
 private:
 SavingThrows saves;
 AbilityScores scores;
 Senses senses;
-
 Stats monsterStats;
 Actions monsterActions;
 string name;

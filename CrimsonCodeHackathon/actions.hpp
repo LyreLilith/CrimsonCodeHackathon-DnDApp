@@ -6,16 +6,16 @@ class Actions {
 public:
 	Actions();
 
-	Actions(string name, int hitMod, string damageDie, string description);
+	Actions(string name, int hitMod, int damageDie, string description);
 
 	string getName(void);
 	int getHitMod(void);
-	string getDamageDie(void);
+	int getDamageDie(void);
 	string getDescription(void);
 
 private:
 	string name;
 	int hitMod;
-	string damageDie;
+	int damageDie;
 	string description;
 };

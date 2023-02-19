@@ -10,7 +10,7 @@ Actions::Actions()
 	std::string description;
 }
 
-Actions::Actions(string nameIN, int hitModIN, string damageDieIN, string descriptionIN)
+Actions::Actions(string nameIN, int hitModIN, int damageDieIN, string descriptionIN)
 {
 	name = nameIN;
 	hitMod = hitModIN;
@@ -28,7 +28,7 @@ int Actions::getHitMod(void)
 	return hitMod;
 }
 
-string Actions::getDamageDie(void)
+int Actions::getDamageDie(void)
 {
 	return damageDie;
 }

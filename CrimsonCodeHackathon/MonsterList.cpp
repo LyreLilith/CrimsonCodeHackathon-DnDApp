@@ -33,7 +33,7 @@ Monster::Monster(void)
 
 Monster::Monster(string name, struct AbilityScores scores, struct Stats stats, struct Actions actions, Senses senses, string description)
 {
-    monsterName = name;
+    this = name;
     monsterAblities = scores;
     monsterStats = stats;
     monsterActions = actions;
@@ -41,15 +41,17 @@ Monster::Monster(string name, struct AbilityScores scores, struct Stats stats, s
     this->description = description;
 }
 
-Monster Monster::load(FILE* infile)
+void MonsterList::load(ifstream& monsters, MonsterList mList )
 {
-    Monster md();
-        string line;
+    Monster md;
+        string line,  attTemp;
     ifstream monsters;
-    int ats[6] = { 0 };
+    int ats[6] = { 0 }, dieTemp=0, dnum=0;
     monsters.open("monsters.csv");
     while (getline(monsters, line))
     {
+        Monster md;
+        getline(monsters, line);
         md.setName(line);
         getline(monsters, line);
         ats[0] = stoi(line);
@@ -61,15 +63,18 @@ Monster Monster::load(FILE* infile)
         ats[4] = stoi(line);
         getline(monsters, line);
         ats[5] = stoi(line);
-        md.  (ats[0], ats[1], ats[2].ats[3].ats[4], ats[5]);
-        getline(monster, line);
-        md.setAttack(line);
-        getline(monster, line);
-        md.setDieNum(stoi(line));
-        getline(monster, line);
-        md.setDieVal(stoi(line))
-    }
-    return md;
+        md.setScores(AbilityScores(ats[0], ats[1], ats[2], ats[3], ats[4], ats[5]));
+        getline(monsters, line);
+        attTemp = line;
+        getline(monsters, line);
+        dieTemp = stoi(line);
+        getline(monsters, line);
+        dnum = stoi(line);
+        getline(monsters, line);
+        md.setActions(Actions(attTemp, dieTemp, dnum, line));
+        getline(monsters, line);
+        md.setDescription(line);
+        mList.insertInOrder(md);
 }
 	
 }

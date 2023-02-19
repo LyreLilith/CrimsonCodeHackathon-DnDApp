@@ -144,6 +144,7 @@
     <ClCompile Include="actions.cpp" />
     <ClCompile Include="functions.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="monster.cpp" />
     <ClCompile Include="MonsterList.cpp" />
     <ClCompile Include="MonsterNode.cpp" />
     <ClCompile Include="Movement.cpp" />

@@ -1,15 +1,16 @@
 #include <iostream>
 #include <fstream>
-#include "stdio.h"
-#include "Monster.hpp"
-#include "MonsterNode.hpp"
+#include "MonsterList.hpp"
 #define MONSTERS "monsters.csv"
 #define PLAYERS "players.csv"
 using namespace std;
 
 int main(void) {
+	bool contVal = true;
 	ifstream monsterInput("monsters.csv");
-	MonsterNode* monsterHead = NULL;
+	MonsterList mList;
+	mList.load(monsterInput, mList);
+	run(mList);
 
 
 
