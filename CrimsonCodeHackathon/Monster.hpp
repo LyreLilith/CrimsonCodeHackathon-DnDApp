@@ -3,6 +3,8 @@
 #include "abilityScores.hpp"
 #include "senses.hpp"
 #include "savingThrows.hpp"
+#include "stats.hpp"
+
 using namespace std;
 
 class Monster{

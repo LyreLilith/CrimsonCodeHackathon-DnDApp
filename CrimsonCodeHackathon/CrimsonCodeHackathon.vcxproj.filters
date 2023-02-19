@@ -39,7 +39,7 @@
     <ClInclude Include="vulnerabilityAndResistance.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="combatStats.hpp">
+    <ClInclude Include="stats.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
