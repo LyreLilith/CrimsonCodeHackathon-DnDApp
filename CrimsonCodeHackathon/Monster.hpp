@@ -41,3 +41,6 @@ Actions actions;
 string name;
 string description;	
 };
+
+
+// future planned attributes: creature size, alignment, and xp value
