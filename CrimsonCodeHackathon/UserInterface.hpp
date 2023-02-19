@@ -9,6 +9,11 @@ public:
 
 	int modeSelection();
 
-	d
+		void displayMonster();
+
+		void search();
+
+private:
+	MonsterList mlData;
 };
 
