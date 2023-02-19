@@ -132,7 +132,7 @@
     <ClInclude Include="MonsterList.hpp" />
     <ClInclude Include="MonsterNode.hpp" />
     <ClInclude Include="stats.hpp" />
-    <ClInclude Include="header.hpp" />
+    <ClInclude Include="functions.hpp" />
     <ClInclude Include="Monster.hpp" />
     <ClInclude Include="Movement.hpp" />
     <ClInclude Include="savingThrows.hpp" />

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include "stdio.h"
 #include "Monster.hpp"
 #include "MonsterNode.hpp"
 #define MONSTERS "monsters.csv"
