@@ -14,7 +14,11 @@ class Monster{
 public:
 	Monster(void);
 
-	Monster(string name, struct AbilityScores scores, struct Stats stats, struct Actions actions, string description);
+
+
+	Monster(string name, struct AbilityScores scores, struct Stats stats, struct Actions actions, Senses senses, string description);
+
+	void 
 
 	string getName(void);
 	SavingThrows getSavingThrows(void);
@@ -28,6 +32,7 @@ public:
 		void setSenses(Senses sence);
 		void setStats(Stats vals);
 
+		Monster Monster::load(FILE* infile);
 private:
 SavingThrows monsterSave;
 AbilityScores monsterAblities;
@@ -35,6 +40,6 @@ Senses monsterSenses;
 
 Stats monsterStats;
 Actions monsterActions;
-string name;
+string monsterName;
 string description;	
 };
