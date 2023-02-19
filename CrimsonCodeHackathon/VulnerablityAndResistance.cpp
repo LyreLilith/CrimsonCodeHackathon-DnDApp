@@ -67,7 +67,7 @@ void VulnerabilityAndResistance::setNonMagic(int val)
 
 int VulnerabilityAndResistance::getSlashing(void)
 {
-
+	
 }
 int VulnerabilityAndResistance::getPiercing(void) {
 	return Piercing;

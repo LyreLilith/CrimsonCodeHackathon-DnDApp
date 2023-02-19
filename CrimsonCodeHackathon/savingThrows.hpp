@@ -4,22 +4,24 @@ class SavingThrows {
 public:
 	SavingThrows();
 
-	SavingThrows(int str, int dex, int con, int intel, int wis, int cha);
+	SavingThrows(int strMod, int dexMod, int conMod, int intelMod, int wisMod, int chaMod, int proficiencyBonus);
 
-	int getStr(void);
-	int getDex(void);
-	int getCon(void);
-	int getIntel(void);
-	int getWis(void);
-	int getCha(void);
+	int getStrMod(void);
+	int getDexMod(void);
+	int getConMod(void);
+	int getIntelMod(void);
+	int getWisMod(void);
+	int getChaMod(void);
+	int getProficiencyBonus(void);
 
 private:
-	int str;
-	int dex;
-	int con;
-	int intel;
-	int wis;
-	int cha;
+	int strMod;
+	int dexMod;
+	int conMod;
+	int intelMod;
+	int wisMod;
+	int chaMod;
+	int proficiencyBonus;
 };
 
 // We need a way to mark advantage and disadvantage for these!
