@@ -18,6 +18,31 @@ Monster::Monster(string nameIN, AbilityScores &scoresIN, Stats &statsIN, Actions
 	actions = actionsIN;
 }
 
+string setName(string val)
+{
+
+}
+
+AbilityScores setScores(AbilityScores val)
+{
+
+}
+
+Stats setStats(Stats val)
+{
+
+}
+
+Actions setActions(Actions val)
+{
+
+}
+
+string setDescription(string val)
+{
+
+}
+
 string Monster::getName(void)
 {
 	return name;
