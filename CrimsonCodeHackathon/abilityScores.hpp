@@ -31,3 +31,4 @@ private:
 	int chaMod;
 };
 
+// proficiency bonus and ability modifiers will go as input for savingThrows.cpp functions!

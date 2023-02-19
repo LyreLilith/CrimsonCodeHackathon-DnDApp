@@ -141,11 +141,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbilityScores.cpp" />
+    <ClCompile Include="actions.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="monster.cpp" />
     <ClCompile Include="MonsterList.cpp" />
     <ClCompile Include="MonsterNode.cpp" />
     <ClCompile Include="Movement.cpp" />
+    <ClCompile Include="savingThrows.cpp" />
+    <ClCompile Include="senses.cpp" />
     <ClCompile Include="stats.cpp" />
     <ClCompile Include="vulnerablityAndResistance.cpp" />
   </ItemGroup>
