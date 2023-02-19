@@ -1,4 +1,5 @@
 #include "senses.hpp"
+#include <ostream>
 
 Senses::Senses()
 {
@@ -41,4 +42,10 @@ int Senses::getTremor(void)
 int Senses::getPassivePerception(void)
 {
 	return passivePerception;
+}
+
+std::ostream& operator<<(std::ostream& statObj, Senses& rtn)
+{
+	statObj << " Dark Sight:" << rtn.getDark() << " Blind Sight: " << rtn.getBlind() << "True Sight: " << rtn.getTruesight() << "Tremor" << rtn.getTremor() << "Pasive Preception: " << rtn.getPassivePerception();
+	return statObj;
 }

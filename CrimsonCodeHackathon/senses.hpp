@@ -19,4 +19,6 @@ private:
 	int tremor;
 	int passivePerception;
 };
+std::ostream& operator<<(std::ostream& statObj, Senses& rtn);
+
 

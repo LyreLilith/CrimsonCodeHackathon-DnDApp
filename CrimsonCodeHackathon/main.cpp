@@ -11,7 +11,7 @@ int main(void) {
 	MonsterList mList;
 	mList.load(monsterInput, mList);
 	cout << "Welcome Dungon Master" << endl;
-		userInterface.run(mList);
+	
 
 
 

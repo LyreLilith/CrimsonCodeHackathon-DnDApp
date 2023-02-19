@@ -34,3 +34,5 @@ private:
 
 };
 
+std::ostream& operator<<(std::ostream& statObj, Stats& rtn);
+
