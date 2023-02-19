@@ -10,7 +10,7 @@ int main(void) {
 	ifstream monsterInput("monsters.csv");
 	MonsterList mList;
 	mList.load(monsterInput, mList);
-	cout << "Welcome Dungon Master"
+	cout << "Welcome Dungon Master" << endl;
 		userInterface.run(mList);
 
 

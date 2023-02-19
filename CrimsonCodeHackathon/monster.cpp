@@ -10,7 +10,10 @@ Monster::Monster(void)
 	Actions actions();
 }
 
-
+string Monster::giveResitance(void) {
+	string res = 0;
+	
+}
 
 void Monster::setName(string val)
 {

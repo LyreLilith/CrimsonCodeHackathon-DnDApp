@@ -20,6 +20,8 @@ public:
 
 	int calcProficiencyBonus(double combatRating);
 
+	std::ostream& operator<<(std::ostream& statObj, Stats& rtn);
+
 private:
 	int armorClass;
 	int health;

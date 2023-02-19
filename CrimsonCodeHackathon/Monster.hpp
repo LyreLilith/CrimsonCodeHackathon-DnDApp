@@ -36,6 +36,7 @@ public:
 
 	void setAbilitys();
 
+	string giveResitance();
 		
 private:
 SavingThrows saves;

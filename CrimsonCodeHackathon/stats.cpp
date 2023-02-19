@@ -1,6 +1,7 @@
 #include "stats.hpp"
 #include "savingThrows.hpp"
 #include <string>
+#include <iostream>
 using namespace std;
 
 Stats::Stats()
@@ -36,6 +37,7 @@ int Stats::getArmorClass(void)
 {
 	return armorClass;
 }
+
 int Stats::getHealth(void)
 {
 	return health;
@@ -95,3 +97,11 @@ int Stats::calcProficiencyBonus(double combatRating)
 		return 0;
 	}
 }
+
+std::ostream& operator <<(std::ostream& statObj, Stats& rtn)
+{
+	statObj << "Combat Rating:" <<rtn.getCombatRating()  << "Health: " << rtn.getHealth() << "Armor Class: " << rtn.getArmorClass() << "Skill Bonus" << rtn.getSkillBonus();
+	return statObj;
+}
+
+

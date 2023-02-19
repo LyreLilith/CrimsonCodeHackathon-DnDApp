@@ -9,10 +9,9 @@ public:
 
 	int modeSelection();
 
-		void displayMonster();
+		void displayMonster(Monster);
 
-		void search();
-
+		Monster monsterSelectior(void);
 private:
 	MonsterList mlData;
 };
