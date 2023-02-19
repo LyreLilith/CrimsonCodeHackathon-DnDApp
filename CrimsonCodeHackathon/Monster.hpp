@@ -17,11 +17,11 @@ public:
 
 	//Monster(string &name, AbilityScores &scores, Stats &stats, Actions &actions, string &description);
 
-	string setName(string val);
-	AbilityScores setScores(AbilityScores val);
-	Stats setStats(Stats val);
-	Actions setActions(Actions val);
-	string setDescription(string val);
+	void setName(string val);
+	void setScores(AbilityScores val);
+	void setStats(Stats val);
+	void setActions(Actions val);
+	void setDescription(string val);
 
 	Monster(string name, struct AbilityScores scores, struct Stats stats, struct Actions actions, Senses senses, string description);
 
