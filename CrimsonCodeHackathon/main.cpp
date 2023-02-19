@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "MonsterList.hpp"
+#include "userInterface.hpp"
 #define MONSTERS "monsters.csv"
 #define PLAYERS "players.csv"
 using namespace std;

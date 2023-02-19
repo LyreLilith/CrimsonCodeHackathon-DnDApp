@@ -31,13 +31,13 @@ Monster::Monster(void)
     Actions actions();
 }
 
-Monster::Monster(string name, struct AbilityScores scores, struct Stats stats, struct Actions actions, Senses senses, string description)
+Monster::Monster(string nameIN, struct AbilityScores scoresIN, struct Stats statsIN, struct Actions actionsIN, Senses sensesIN, string description)
 {
-    this = name;
-    monsterAblities = scores;
-    monsterStats = stats;
-    monsterActions = actions;
-    monsterSenses = senses;
+    name = nameIN;
+    scores = scoresIN;
+    stats = statsIN;
+    actions = actionsIN;
+    senses = sensesIN;
     this->description = description;
 }
 
@@ -45,7 +45,7 @@ void MonsterList::load(ifstream& monsters, MonsterList mList )
 {
     Monster md;
         string line,  attTemp;
-    ifstream monsters;
+    /*ifstream monsters;*/
     int ats[6] = { 0 }, dieTemp=0, dnum=0;
     monsters.open("monsters.csv");
     while (getline(monsters, line))

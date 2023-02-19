@@ -42,8 +42,8 @@ private:
 SavingThrows saves;
 AbilityScores scores;
 Senses senses;
-Stats monsterStats;
-Actions monsterActions;
+Stats stats;
+Actions actions;
 string name;
 string description;	
 };
