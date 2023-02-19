@@ -10,13 +10,21 @@ Stats::Stats()
 	health = 0;
 	Stats savingThrows();
 	skillBonus = 0;
-	std::string ;
-
+	std::string conditionImmunity;
+	Stats senses();
+	std::string language;
 }
 
-Stats::Stats(double combatRating, int armorClass, int health, SavingThrows &savingThrows, int skillBonus, string &conditionImmunity, Senses &senses, string &language)
+Stats::Stats(double combatRatingIN, int armorClassIN, int healthIN, SavingThrows &savingThrowsIN, int skillBonusIN, string &conditionImmunityIN, Senses &sensesIN, string &languageIN)
 {
-
+	combatRating = combatRatingIN;
+	armorClass = armorClassIN;
+	health = healthIN;
+	savingThrows = savingThrowsIN;
+	skillBonus = skillBonusIN;
+	conditionImmunity = conditionImmunityIN;
+	senses = sensesIN;
+	language = languageIN;
 }
 
 double Stats::getCombatRating(void)
