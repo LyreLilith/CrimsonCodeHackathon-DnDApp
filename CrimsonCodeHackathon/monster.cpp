@@ -1,4 +1,7 @@
 #include "Monster.hpp"
+#include "abilityScores.hpp"
+#include "stats.hpp"
+#include "actions.hpp"
 #include <string>
 using namespace std;
 
@@ -10,35 +13,35 @@ Monster::Monster(void)
 	Actions actions();
 }
 
-Monster::Monster(string nameIN, AbilityScores &scoresIN, Stats &statsIN, Actions &actionsIN)
-{
-	name = nameIN;
-	scores = scoresIN;
-	stats = statsIN;
-	actions = actionsIN;
-}
+//Monster::Monster(string nameIN, AbilityScores &scoresIN, Stats &statsIN, Actions &actionsIN)
+//{
+//	name = nameIN;
+//	scores = scoresIN;
+//	stats = statsIN;
+//	actions = actionsIN;
+//}
 
-string setName(string val)
+void Monster::setName(string val)
 {
 	name = val;
 }
 
-AbilityScores setScores(AbilityScores val)
+void Monster::setScores(AbilityScores val)
 {
 	scores = val;
 }
 
-Stats setStats(Stats val)
+void Monster::setStats(Stats val)
 {
 	stats = val;
 }
 
-Actions setActions(Actions val)
+void Monster::setActions(Actions val)
 {
 	actions = val;
 }
 
-string setDescription(string val)
+void Monster::setDescription(string val)
 {
 	description = val;
 }
@@ -53,17 +56,17 @@ AbilityScores Monster::getScores(void)
 	return scores;
 }
 
-Stats getStats(void)
+Stats Monster::getStats(void)
 {
 	return stats;
 }
 
-Actions getActions(void);
+Actions Monster::getActions(void)
 {
-	return action;
+	return actions;
 }
 
-string getDescription(void);
+string Monster::getDescription(void)
 {
 	return description;
 }

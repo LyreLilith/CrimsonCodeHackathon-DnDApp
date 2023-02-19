@@ -4,7 +4,7 @@ class MonsterList
 {
 public:
 	MonsterList();
-	void challangeSort(void);
+	void challengeSort(void);
 	void insertInOrder(Monster newMonster);
 	void nameSort(Monster newMonster);
 	void load(FILE* infile);

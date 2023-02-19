@@ -36,14 +36,16 @@ int AbilityScores::getStr(void)
 	return str;
 }
 
-int AbilityScores::getDex(void)
+int AbilityScores::getCha(void)
 {
 	return cha;
 }
+
 int AbilityScores::getWis(void)
 {
 	return wis;
 }
+
 int AbilityScores::getIntel(void)
 {
 	return intel;
