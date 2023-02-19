@@ -88,13 +88,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="players.csv">
+      <Filter>Resource Files</Filter>
+    </None>
     <None Include="monsterDELETEME.csv">
       <Filter>Source Files</Filter>
     </None>
     <None Include="monsters.csv">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="players.csv">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

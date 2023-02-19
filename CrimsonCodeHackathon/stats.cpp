@@ -86,8 +86,12 @@ int Stats::calcProficiencyBonus(double combatRating)
 	{
 		return 8;
 	}
-	else if (combatRating == 29 || combatRating || 30)
+	else if (combatRating == 29 || combatRating == 30)
 	{
 		return 9;
+	}
+	else
+	{
+		return 0;
 	}
 }

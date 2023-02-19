@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 #include "Movement.hpp"
 #include "abilityScores.hpp"
@@ -8,13 +9,19 @@
 
 using namespace std;
 
-class Monster{
+class Monster {
 
 	
 public:
-	Monster(void);
+	Monster();
 
+	//Monster(string &name, AbilityScores &scores, Stats &stats, Actions &actions, string &description);
 
+	string setName(string val);
+	AbilityScores setScores(AbilityScores val);
+	Stats setStats(Stats val);
+	Actions setActions(Actions val);
+	string setDescription(string val);
 
 	Monster(string name, struct AbilityScores scores, struct Stats stats, struct Actions actions, Senses senses, string description);
 
@@ -25,21 +32,22 @@ public:
 	AbilityScores getAbilityScores(void);
 	Senses getSense(void);
 	Stats getStats(void);
-
-		void setName(string name);
-		void setSavingThrows(SavingThrows vals);
-		void setAbilityScores(AbilityScores scores);
-		void setSenses(Senses sence);
-		void setStats(Stats vals);
+	Actions getActions(void);
+	string getDescription(void);
+	void setString(string name);
+	void setAbilitys()
 
 		Monster Monster::load(FILE* infile);
 private:
-SavingThrows monsterSave;
-AbilityScores monsterAblities;
-Senses monsterSenses;
+SavingThrows saves;
+AbilityScores scores;
+Senses senses;
 
 Stats monsterStats;
 Actions monsterActions;
-string monsterName;
+string name;
 string description;	
 };
+
+
+// future planned attributes: creature size, alignment, and xp value
