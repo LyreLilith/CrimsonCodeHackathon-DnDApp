@@ -24,8 +24,10 @@ private:
 	int armorClass;
 	int health;
 	double combatRating;
+	SavingThrows savingThrows;
 	int skillBonus;
 	string conditionImmunity;
+	Senses senses;
 	string language;
 
 };

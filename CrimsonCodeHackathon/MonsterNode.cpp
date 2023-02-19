@@ -15,7 +15,7 @@ Monster MonsterNode::getMonster(void)
 
 MonsterNode* MonsterNode::getNextNode()
 {
-	return  nLink;
+	return nLink;
 }
 
 MonsterNode* MonsterNode::getPrevNode()
