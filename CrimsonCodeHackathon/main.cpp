@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "MonsterList.hpp"
+#include "userInterface.hpp"
 #define MONSTERS "monsters.csv"
 #define PLAYERS "players.csv"
 using namespace std;
@@ -10,7 +11,7 @@ int main(void) {
 	ifstream monsterInput("monsters.csv");
 	MonsterList mList;
 	mList.load(monsterInput, mList);
-	cout << "Welcome Dungon Master"
+	cout << "Welcome Dungon Master";
 		userInterface.run(mList);
 
 

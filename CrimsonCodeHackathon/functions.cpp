@@ -14,5 +14,6 @@ void readCSV(FILE* infile)
     monsters.open("monsters.csv");
 
     while (getline(monsters, line) && !monsters.eof()) {
-        
 
+    }
+}

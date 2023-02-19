@@ -152,6 +152,7 @@
     <ClCompile Include="savingThrows.cpp" />
     <ClCompile Include="senses.cpp" />
     <ClCompile Include="stats.cpp" />
+    <ClCompile Include="userInterface.cpp" />
     <ClCompile Include="vulnerablityAndResistance.cpp" />
   </ItemGroup>
   <ItemGroup>

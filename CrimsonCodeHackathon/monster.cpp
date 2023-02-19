@@ -24,12 +24,12 @@ void Monster::setScores(AbilityScores val)
 
 void Monster::setStats(Stats val)
 {
-	monsterStats = val;
+	stats = val;
 }
 
 void Monster::setActions(Actions val)
 {
-	monsterActions = val;
+	actions = val;
 }
 
 void Monster::setDescription(string val)
@@ -49,12 +49,12 @@ AbilityScores Monster::getAbilityScores(void)
 
 Stats Monster::getStats(void)
 {
-	return monsterStats;
+	return stats;
 }
 
 Actions Monster::getActions(void)
 {
-	return monsterActions;
+	return actions;
 }
 
 string Monster::getDescription(void)
