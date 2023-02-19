@@ -68,10 +68,13 @@
     <ClCompile Include="MonsterNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="savingThrows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="actions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="savingThrows.cpp">
+    <ClCompile Include="senses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

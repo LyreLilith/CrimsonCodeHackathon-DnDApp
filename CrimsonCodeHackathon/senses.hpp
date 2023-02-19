@@ -10,7 +10,7 @@ public:
 	int getBlind(void);
 	int getTruesight(void);
 	int getTremor(void);
-	int passivePerception(void);
+	int getPassivePerception(void);
 
 private:
 	int dark;
