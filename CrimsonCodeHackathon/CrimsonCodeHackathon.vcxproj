@@ -129,12 +129,13 @@
   <ItemGroup>
     <ClInclude Include="AbilityScores.hpp" />
     <ClInclude Include="actions.hpp" />
+    <ClInclude Include="combatStats.hpp" />
     <ClInclude Include="header.hpp" />
     <ClInclude Include="Monster.hpp" />
     <ClInclude Include="Movement.hpp" />
     <ClInclude Include="savingThrows.hpp" />
     <ClInclude Include="senses.hpp" />
-    <ClInclude Include="VurablityAndResitance.hpp" />
+    <ClInclude Include="vulnerabilityAndResistance.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbilityScores.cpp" />

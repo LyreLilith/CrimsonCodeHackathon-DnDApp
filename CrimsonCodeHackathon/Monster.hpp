@@ -26,6 +26,7 @@ private:
 SavingThrows monsterSave;
 AbilityScores monsterAblities;
 Senses monsterSenses;
+
 Stats monsterStats;
 Actions monsterActions;
 string name;

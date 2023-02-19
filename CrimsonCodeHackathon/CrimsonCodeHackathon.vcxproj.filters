@@ -36,7 +36,10 @@
     <ClInclude Include="actions.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VurablityAndResitance.hpp">
+    <ClInclude Include="vulnerabilityAndResistance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="combatStats.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
