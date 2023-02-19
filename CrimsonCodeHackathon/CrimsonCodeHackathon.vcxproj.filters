@@ -45,6 +45,9 @@
     <ClInclude Include="MonsterNode.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MonsterList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -77,8 +80,22 @@
     <ClCompile Include="senses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MonsterList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="monsterDELETEME.csv" />
+    <None Include="monsterDELETEME.csv">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="monsters.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="players.csv">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
