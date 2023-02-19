@@ -8,6 +8,6 @@ public:
 	void load(ifstream& monsterFile, MonsterList mList);
 	void nameSort(Monster newMonster);
 private:
-	void insertAtFront(Monster newMonster);
+	void insertInOrder(Monster newMonster);
 	MonsterNode* pHead;
 };

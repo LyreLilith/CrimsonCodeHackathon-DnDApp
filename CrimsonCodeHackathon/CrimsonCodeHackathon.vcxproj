@@ -137,6 +137,7 @@
     <ClInclude Include="Movement.hpp" />
     <ClInclude Include="savingThrows.hpp" />
     <ClInclude Include="senses.hpp" />
+    <ClInclude Include="UserInterface.hpp" />
     <ClInclude Include="vulnerabilityAndResistance.hpp" />
   </ItemGroup>
   <ItemGroup>
