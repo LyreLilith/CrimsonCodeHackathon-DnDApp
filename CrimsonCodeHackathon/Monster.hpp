@@ -14,21 +14,19 @@ class Monster{
 public:
 	Monster(void);
 
-	Monster(string &name, struct AbilityScores &scores, struct Stats &stats, struct Actions &actions, string &description);
-
-	string setName(string val);
-	AbilityScores setScores(AbilityScores val);
-	Stats setStats(Stats val);
-	Actions setActions(Actions val);
-	string setDescription(string val);
+	Monster(string name, struct AbilityScores scores, struct Stats stats, struct Actions actions, string description);
 
 	string getName(void);
-	AbilityScores getScores(void);
+	SavingThrows getSavingThrows(void);
+	AbilityScores getAbilityScores(void);
+	Senses getSense(void);
 	Stats getStats(void);
-	Actions getActions(void);
-	string getDescription(void);
-	void setString(string name);
-	void setAbilitys()
+
+		void setName(string name);
+		void setSavingThrows(SavingThrows vals);
+		void setAbilityScores(AbilityScores scores);
+		void setSenses(Senses sence);
+		void setStats(Stats vals);
 
 private:
 SavingThrows monsterSave;

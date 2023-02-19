@@ -10,27 +10,28 @@ Monster::Monster(void)
 	Actions actions();
 }
 
-Monster::Monster(string nameIN, AbilityScores &scoresIN, Stats &statsIN, Actions &actionsIN)
+Monster::Monster(string name, struct AbilityScores scores, struct Stats stats, struct Actions actions, string description)
 {
-	name = nameIN;
-	scores = scoresIN;
-	stats = statsIN;
-	actions = actionsIN;
+	monsterName = name;
+	monsterAblities = scores;
+	monsterStats = stats;
+	monsterActions = actions;
+	monsterSenses = senses
 }
 
-string setName(string val)
-{
-
+string Monster::setName(string val)
+{	
+	name = val;
 }
 
-AbilityScores setScores(AbilityScores val)
+void Monster::setAbilityScores(AbilityScores scores)
 {
-
+	monsterAblities = kapppa;
 }
 
-Stats setStats(Stats val)
+Stats MonsetStats(Stats val)
 {
-
+	
 }
 
 Actions setActions(Actions val)
