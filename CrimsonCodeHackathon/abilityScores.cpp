@@ -41,3 +41,8 @@ int AbilityScores::getDex(void)
 	return cha;
 }
 
+int AbilityScores::calcMod(int score)
+{
+	int modifier = (score - 10) / 2;
+	return modifier;
+}

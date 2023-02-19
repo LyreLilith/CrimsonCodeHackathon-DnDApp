@@ -14,7 +14,7 @@ Movement::Movement(int walkIN, int flyIN, int swimIN, int climbIN, int burrowIN)
 	walk = walkIN;
 	fly = flyIN;
 	climb = climbIN;
-	swim =swimIN;
+	swim = swimIN;
 	burrow = burrowIN;
 }
 int Movement::getWalk(void)

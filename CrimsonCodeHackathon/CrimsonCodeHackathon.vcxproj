@@ -144,6 +144,7 @@
     <ClCompile Include="monster.cpp" />
     <ClCompile Include="MonsterNode.cpp" />
     <ClCompile Include="Movement.cpp" />
+    <ClCompile Include="stats.cpp" />
     <ClCompile Include="vulnerablityAndResistance.cpp" />
   </ItemGroup>
   <ItemGroup>
