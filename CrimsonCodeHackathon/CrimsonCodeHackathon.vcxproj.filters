@@ -56,7 +56,7 @@
     <ClCompile Include="Movement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VurablityAndResitance.cpp">
+    <ClCompile Include="vulnerablityAndResistance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

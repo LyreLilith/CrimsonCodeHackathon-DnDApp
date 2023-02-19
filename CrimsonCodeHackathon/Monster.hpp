@@ -1,6 +1,8 @@
 #include <string>
 #include "Movement.hpp"
 #include "abilityScores.hpp"
+#include "senses.hpp"
+#include "savingThrows.hpp"
 using namespace std;
 
 class Monster{
