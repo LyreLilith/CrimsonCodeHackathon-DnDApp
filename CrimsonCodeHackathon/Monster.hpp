@@ -21,7 +21,8 @@ public:
 	Stats getStats(void);
 	Actions getActions(void);
 	string getDescription(void);
-
+	void setString(string name);
+	void setAbilitys()
 
 private:
 SavingThrows monsterSave;

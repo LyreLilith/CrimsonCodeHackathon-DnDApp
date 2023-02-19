@@ -20,20 +20,6 @@ void MonsterList::insertAtFront(Monster mData)
 	}
 }
 
-void MonsterList::load(FILE* infile) {
-	int at[6] = { 0 };
-	Monster mD();
-	char line[256] = "";
-	while (fgets(line, 256, infile) != NULL)
-	{
-		char* tok = strtok(line, ",");
-		md.name(tok);
-		char* tok = strtok(line, ",")
-		stat
 
-	}
-
-}
-{
 	
 }
