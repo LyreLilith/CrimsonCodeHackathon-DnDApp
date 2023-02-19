@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClInclude Include="AbilityScores.hpp" />
     <ClInclude Include="actions.hpp" />
+    <ClInclude Include="MonsterNode.hpp" />
     <ClInclude Include="stats.hpp" />
     <ClInclude Include="header.hpp" />
     <ClInclude Include="Monster.hpp" />
@@ -141,8 +142,12 @@
     <ClCompile Include="AbilityScores.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="monster.cpp" />
+    <ClCompile Include="MonsterNode.cpp" />
     <ClCompile Include="Movement.cpp" />
     <ClCompile Include="vulnerablityAndResistance.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="monsterDELETEME.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
