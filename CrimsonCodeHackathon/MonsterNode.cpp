@@ -1,7 +1,13 @@
 #include "MonsterNode.hpp"
 
 
-MonsterNode::MonsterNode(Monster mData)
+MonsterNode::MonsterNode()
+{
+	pLink = NULL;
+	pLink = NULL;
+}
+
+MonsterNode::MonsterNode(Monster &mData)
 {
 	pLink = NULL;
 	nLink = NULL;
@@ -23,6 +29,14 @@ MonsterNode* MonsterNode::getPrevNode()
 	return pLink;
 }
 
+void MonsterNode::setNextNode(MonsterNode* nLink)
+{
+	this->nLink = nLink;
+}
 
+void MonsterNode::setPrevNode(MonsterNode* pLink)
+{
+	this->nLink = nLink;
+}
 
 

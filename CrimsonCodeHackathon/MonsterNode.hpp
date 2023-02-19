@@ -6,10 +6,14 @@
 class MonsterNode
 {
 public:
-	MonsterNode(Monster mData);
+
+	MonsterNode();
+	MonsterNode(Monster &mData);
 	Monster getMonster(void);
 	MonsterNode* getNextNode(void);
 	MonsterNode* getPrevNode(void);
+	void setPrevNode(MonsterNode* pLink);
+	void setNextNode(MonsterNode* nLink);
 
 
 private:
