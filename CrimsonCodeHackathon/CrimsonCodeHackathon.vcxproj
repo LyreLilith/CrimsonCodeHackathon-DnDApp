@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClInclude Include="AbilityScores.hpp" />
     <ClInclude Include="actions.hpp" />
+    <ClInclude Include="MonsterList.hpp" />
     <ClInclude Include="MonsterNode.hpp" />
     <ClInclude Include="stats.hpp" />
     <ClInclude Include="header.hpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="AbilityScores.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="monster.cpp" />
+    <ClCompile Include="MonsterList.cpp" />
     <ClCompile Include="MonsterNode.cpp" />
     <ClCompile Include="Movement.cpp" />
     <ClCompile Include="stats.cpp" />

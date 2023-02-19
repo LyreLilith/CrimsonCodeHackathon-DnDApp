@@ -40,6 +40,14 @@ int AbilityScores::getDex(void)
 {
 	return cha;
 }
+int AbilityScores::getWis(void)
+{
+	return wis;
+}
+int AbilityScores::getIntel(void)
+{
+	return intel;
+}
 
 int AbilityScores::calcMod(int score)
 {
