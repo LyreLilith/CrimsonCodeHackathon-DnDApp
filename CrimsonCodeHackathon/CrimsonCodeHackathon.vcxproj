@@ -134,7 +134,7 @@
     <ClInclude Include="Movement.hpp" />
     <ClInclude Include="savingThrows.hpp" />
     <ClInclude Include="senses.hpp" />
-    <ClInclude Include="cobatStats.hpp" />
+    <ClInclude Include="VurablityAndResitance.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbilityScores.cpp" />

@@ -26,7 +26,6 @@ private:
 SavingThrows monsterSave;
 AbilityScores monsterAblities;
 Senses monsterSenses;
-bool damageArr[14] = { 0 };
 Stats monsterStats;
 Actions monsterActions;
 string name;
