@@ -20,27 +20,27 @@ Monster::Monster(string nameIN, AbilityScores &scoresIN, Stats &statsIN, Actions
 
 string setName(string val)
 {
-
+	name = val;
 }
 
 AbilityScores setScores(AbilityScores val)
 {
-
+	scores = val;
 }
 
 Stats setStats(Stats val)
 {
-
+	stats = val;
 }
 
 Actions setActions(Actions val)
 {
-
+	actions = val;
 }
 
 string setDescription(string val)
 {
-
+	description = val;
 }
 
 string Monster::getName(void)
@@ -53,6 +53,17 @@ AbilityScores Monster::getScores(void)
 	return scores;
 }
 
-Stats getStats(void);
+Stats getStats(void)
+{
+	return stats;
+}
+
 Actions getActions(void);
+{
+	return action;
+}
+
 string getDescription(void);
+{
+	return description;
+}

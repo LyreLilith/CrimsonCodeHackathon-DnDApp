@@ -19,7 +19,3 @@ void MonsterList::insertAtFront(Monster mData)
 
 	}
 }
-
-
-	
-}

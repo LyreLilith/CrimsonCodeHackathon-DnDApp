@@ -12,8 +12,8 @@ void readCSV(FILE* infile)
     ifstream monsters;
     monsters.open("monsters.csv");
 
-    while (getline(monsters, line)) {
-             
+    while (getline(monsters, line) && !monsters.eof()) {
+        
 
     }
 }

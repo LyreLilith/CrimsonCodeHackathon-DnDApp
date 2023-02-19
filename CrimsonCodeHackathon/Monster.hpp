@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 #include "Movement.hpp"
 #include "abilityScores.hpp"
@@ -28,7 +29,7 @@ public:
 	Actions getActions(void);
 	string getDescription(void);
 	void setString(string name);
-	void setAbilitys()
+	void setAbilities();
 
 private:
 SavingThrows monsterSave;
