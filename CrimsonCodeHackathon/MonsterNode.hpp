@@ -11,7 +11,7 @@ public:
 	MonsterNode* getNextNode(void);
 	MonsterNode* getPrevNode(void);
 
-	void addData(Monster mData);
+
 private:
 		MonsterNode* nLink;
 		MonsterNode* pLink;
