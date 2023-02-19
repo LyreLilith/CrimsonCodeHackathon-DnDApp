@@ -3,10 +3,20 @@
 
 VulnerabilityAndResistance::VulnerabilityAndResistance()
 {
-	for (int i = 0; i < 14; i++)
-	{
-		types[i] = 0;
-	}
+	Slashing = 0;
+	Piercing = 0;
+	Bludgeoning = 0;
+	Poison = 0;
+	Acid = 0;
+	Cold = 0;
+	Fire = 0;
+	Radiant = 0;
+	Necrotic = 0;
+	Lighting = 0;
+	Thunder = 0;
+	Force = 0;
+	Psychic = 0;
+	NonMagic = 0;
 }
 
 void VulnerabilityAndResistance::setSlashing(int val)
@@ -67,7 +77,7 @@ void VulnerabilityAndResistance::setNonMagic(int val)
 
 int VulnerabilityAndResistance::getSlashing(void)
 {
-	
+	return Slashing;
 }
 int VulnerabilityAndResistance::getPiercing(void) {
 	return Piercing;
