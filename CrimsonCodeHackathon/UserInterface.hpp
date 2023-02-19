@@ -1,17 +1,19 @@
 #pragma once
-#include "monster.hpp"
+#include "MonsterList.hpp"
 
-class UserInterface {
+class UserInterface
+{
 
 public:
-	UserInterface();
+	UserInterface(MonsterList mList);
 
-	UserInterface(int mainMenu, Monster displayedMonster);
+	int modeSelection();
 
-	int mainMenu(int mainMenu);
-	Monster displayMonster(void);
+		void displayMonster();
+
+		void search();
 
 private:
-	int mainMenu;
-	Monster displayedMonster;
+	MonsterList mlData;
 };
+
