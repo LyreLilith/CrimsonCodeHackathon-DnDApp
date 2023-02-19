@@ -59,5 +59,8 @@
     <ClCompile Include="vulnerablityAndResistance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

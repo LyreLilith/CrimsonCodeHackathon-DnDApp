@@ -6,11 +6,11 @@ using namespace std;
 class Stats {
 
 public:
-	CombatStats();
+	Stats();
 
-	CombatStats(int combatRating, int armorClass, int health, SavingThrows &savingThrows, int skillBonus, string conditionImmunity, Senses &senses, string language);
+	Stats(double combatRating, int armorClass, int health, SavingThrows &savingThrows, int skillBonus, string &conditionImmunity, Senses &senses, string &language);
 
-	int getCombatRating(void);
+	double getCombatRating(void);
 	int getArmorClass(void);
 	int getHealth(void);
 
@@ -18,10 +18,12 @@ public:
 	string getConditionImmunity(void);
 	string getLanguage(void);
 
+	int calcProficiencyBonus(double combatRating);
+
 private:
 	int armorClass;
 	int health;
-	int combatRating;
+	double combatRating;
 	int skillBonus;
 	string conditionImmunity;
 	string language;
